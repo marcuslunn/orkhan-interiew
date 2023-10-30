@@ -18,6 +18,7 @@ public class Solution {
     // *** Note - I made this static to avoid writing a unit test - this is lazy ***
     // This solution is O(n) - it iterates through every element in the array once, therefore it will be linear time complexity.
     // The solution makes use of the assumption that the sum of all elements in A is always greater or equal to zero.
+    // It DOES NOT return the ordered array - this it not a requirement of the problem statement.
     public static int solution(int[] input) {
         int numberOfMovesCount = 0;
         int runningTotal = 0;
